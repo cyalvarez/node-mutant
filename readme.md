@@ -62,7 +62,7 @@ Ejemplo
     Status Code: 403 Forbidden
     "is not a mutant"
 
-### Revisar ADN
+### Ver estadisticas
 
 #### Request
 
