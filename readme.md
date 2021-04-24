@@ -46,7 +46,7 @@ npm run start
 
 #### Request
 
-`POST /dna/`
+`POST /dna`
 
 #### Body
 
