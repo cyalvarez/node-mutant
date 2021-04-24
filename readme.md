@@ -40,6 +40,18 @@ npm run start
 * Ingresar a https://node-mutant.herokuapp.com/
 * Verificar que se vea el mensaje "Server Running ⚛"
 
+### Comandos
+
+#### Correr tests
+```bash
+npm run test
+```
+
+#### Ver coverage
+```bash
+npm run coverage
+```
+
 ## REST API
 
 ### Revisar ADN
