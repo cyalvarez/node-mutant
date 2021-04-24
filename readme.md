@@ -4,7 +4,7 @@ Esta API te permite revisar si un ADN es mutante o no, ademas luego puedes verif
 
 ## Instalacion
 
--Tener previamente instalado Node.js (Ultima version estable)
+* Tener previamente instalado Node.js (Ultima version estable)
 -Tener previamente instalado GIT (Ultima version estable)
 -Abrir terminal o linea de comandos
 -Dirigirse a la ruta donde clonara el proyecto
