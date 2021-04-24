@@ -3,7 +3,7 @@ const Human = require('../models/human.model')
 
 exports.getMutantCount = async () => {
   try {
-    return Mutant.countDocuments({})
+    return await Mutant.countDocuments({})
   } catch (e) {
     throw Error(e)
   }
@@ -11,7 +11,7 @@ exports.getMutantCount = async () => {
 
 exports.getHumanCount = async () => {
   try {
-    return Human.countDocuments({})
+    return await Human.countDocuments({})
   } catch (e) {
     throw Error(e)
   }

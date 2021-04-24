@@ -4,11 +4,13 @@ exports.postMutant = async ({ body: { dna } }, res) => {
   try {
     if (isMutant(dna)) {
       dnaService.saveMutant(dna);
-      res.status(200).send();
+      res.status(200);
+      return res.send('is a mutant');
     }
     else {
       dnaService.saveHuman(dna);
-      res.status(403).send();
+      res.status(403);
+      return res.send('is not a mutant');
     }
   } catch (e) {
     res.status(400).send(e.message)
@@ -24,9 +26,12 @@ exports.getStats = async (req, res) => {
       count_human_dna: humanCount + mutantCount,
       ratio: calculateRatio(mutantCount, humanCount)
     }
-    res.json(response);
+    res.status(200)
+    res.json(response)
+    return response
   } catch (e) {
-    res.status(400).send(e.message)
+    res.status(400)
+    res.send(e.message)
   }
 }
 
