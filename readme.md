@@ -14,7 +14,7 @@ git clone https://github.com/cyalvarez/node-mutant.git
 ```
 * Ingresar a la carpeta del proyecto
 ```bash
-cd node-mutantes
+cd node-mutant
 ```
 * Instalar dependencias
 ```bash
